@@ -2,18 +2,20 @@ package ie.gmit.calculatorlab;
 
 public class calculator
 {
-    int firstNumber;
-    int secondNumber;
 
-    public calculator(int firstNumber, int secondNumber)
+    public calculator()
     {
-        this.firstNumber = firstNumber;
-        this.secondNumber = secondNumber;
     }
 
-    public int add()
+    public int add(int firstNumber, int secondNumber)
     {
         int total = firstNumber + secondNumber;
+        return total;
+    }
+
+    public int subtract(int firstNumber, int secondNumber)
+    {
+        int total = firstNumber - secondNumber;
         return total;
     }
 }
