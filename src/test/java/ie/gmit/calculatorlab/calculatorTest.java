@@ -17,4 +17,10 @@ public class calculatorTest
     {
         assertEquals(7, calc.subtract(17, 10));
     }
+
+    @Test
+    void testDivide()
+    {
+        assertEquals(2, calc.divide(6, 3));
+    }
 }
