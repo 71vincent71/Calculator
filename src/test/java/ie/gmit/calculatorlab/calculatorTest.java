@@ -23,4 +23,10 @@ public class calculatorTest
     {
         assertEquals(2, calc.divide(6, 3));
     }
+
+    @Test
+    void testMultiply()
+    {
+        assertEquals(8, calc.multiply(2, 4));
+    }
 }

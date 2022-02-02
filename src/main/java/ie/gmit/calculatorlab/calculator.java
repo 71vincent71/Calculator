@@ -26,4 +26,10 @@ public class calculator
         int total = firstNumber / secondNumber;
         return total;
     }
+
+    public int multiply(int firstNumber, int secondNumber)
+    {
+        int total = firstNumber * secondNumber;
+        return total;
+    }
 }
